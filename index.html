@@ -2,7 +2,7 @@
 
 <head>
 
-	<link rel="stylesheel" type="text/css" href="CSS/default.css">
+	<link type="text/css" rel="stylesheet" href="CSS/default.css" />
 	<title> XABY Reviews </title>
 
 </head>
@@ -11,17 +11,11 @@
 
 <div class="container">
 	
-		<div class="nav" id="topnav">
+		<div class="nav" id="topnav"> <!-- Added a div for the navigation bar-->
 			<a href="index.html" class="active"?>Home</a>
-			<button class="dropbtn">Reviews</button>
-			<div class="dropdown-content">
-				<a href="../Webpages/pc-reviews.html">PC Reviews</a>
-				<a href="../Webpages/ps4-reviews.html">PS4 Reviews</a>
-				<a href="../Webpages/xbox-reviews.html">Xbox Reviews</a>
-			</div>
-			<a href="../Webpages/contact-us.html">Contact Us</a>
-			<a href="../Webpages/about-us.html">About Us</a>
-			<a href="javascript:void(0);" class="icon">☰</a>
+			<a href="Webpages/contact-us.html">Contact Us</a>
+			<a href="Webpages/about-us.html">About Us</a>
+			<a href="javascript:void(0);" class="icon" id="smenu">☰</a> <!-- Javascript to allow icon to display when screen width is smaller than 500px-->
 		</div>	
 </body>
 

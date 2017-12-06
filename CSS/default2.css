@@ -1,4 +1,8 @@
 /* Small Mobile Style/Global Styles */
+.body {
+	background-color: #000000
+
+}
 .nav {
 	background-color: #d9d9d9;
 	overflow: hidden;
@@ -14,19 +18,9 @@
 	font-size: 17px;
 }
 
-.nav1 a:hover {
-	background-color: #b3b3b3;
-}
-
 .active {
 	background-color: #000000
 }
-
-.nav .icon {
-	display: none;
-}
-
-@media screen and (max-width: 600px) {	
 
 .nav a:not(:first-child) {
 	display: none;
@@ -36,10 +30,6 @@
 	float: right;
 	display:block;
 }
-
-}
-
-@media screen and (max-width: 600px) {
 
 .nav.responsive { /*adds a responsive class to the nav with Javascript when the user clicks on the icon*/
 	position: relative;
@@ -56,6 +46,41 @@
 	display; block;
 	text-align: left;
 }
+
+
+
+
+
+
+
+
+
+/* Medium Size Style */
+@media screen and (min-width: 500px) {
+
+.nav1 a:hover {
+	background-color: #b3b3b3;
+}
+
+.nav .icon {
+	display: none;
+}	
+	
+	
+	
+	
 }
 
 
+/* Desktop Size Styles */
+@media screen and (min-width: 1000px) {
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
