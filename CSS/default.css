@@ -76,9 +76,10 @@ input[type=checkbox]:checked ~ #menu{
 
 /* Medium Size Style */
 @media screen and (min-width: 580px) {
-/*Changes link position*/
+/*Centers Menu Position*/
 ul {
-	display: block;
+	display: flex;
+	justify-content: center;
 }
 /*Create a horizontal list*/
 li {
@@ -101,15 +102,6 @@ li:hover ul a:hover {
 /* Show menu button hidden on larger displays */
 .show-menu {
 	display: none;
-}
-
-#menu {
-    list-style-type: none;
-	margin: auto;
-	padding: 0;
-	Overflow: hidden;
-    display:flex;
-    justify-content: center;
 }
 
 }
