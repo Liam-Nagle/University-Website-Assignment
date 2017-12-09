@@ -5,6 +5,7 @@ ul {
     margin:0;
     padding:0;
     position: static;
+	display: none;
 }
 /*Create vertical spacing*/
 li {
@@ -49,12 +50,31 @@ li ul li a {
 ul li a:hover + .hidden, .hidden:hover {
     display: block;
 }
+/*Styles for show menu button*/
+.show-menu {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    background: #19c589;
+    text-align: center;
+    padding: 10px 0;
+	display: block;
+}
+/*Hides checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+/*Displays menu when checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
 
 /* Medium Size Style */
 @media screen and (min-width: 580px) {
 /*Strip the ul of padding and list styling*/
 ul {
     position: absolute;
+	display: block;
 }
 /*Create a horizontal list with spacing*/
 li {
@@ -71,6 +91,11 @@ li:hover a {
 li:hover ul a:hover {
     background: #19c589;
     color: #fff;
+}
+
+/* Show menu button hidden on larger displays */
+.show-menu {
+	display: none;
 }
 
 }
