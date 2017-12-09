@@ -45,6 +45,10 @@ li ul li a {
     min-width: 100px;
     padding: 0 20px;
 }
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden, .hidden:hover {
+    display: block;
+}
 
 /* Medium Size Style */
 @media screen and (min-width: 580px) {
@@ -68,11 +72,6 @@ li:hover ul a:hover {
     background: #19c589;
     color: #fff;
 }
-/*Display the dropdown on hover*/
-ul li a:hover + .hidden, .hidden:hover {
-    display: block;
-}
-
 
 }
 /* Desktop Size Styles */
