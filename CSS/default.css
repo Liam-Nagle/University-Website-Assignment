@@ -88,6 +88,34 @@ input[type=checkbox]:checked ~ #menu{
 	position: relative;
 }
 
+.slider {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+.slides {
+	display: none;
+}
+
+.fading {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
 /* Medium Size Style */
 @media screen and (min-width: 580px) {
 /*Centers Menu Position*/

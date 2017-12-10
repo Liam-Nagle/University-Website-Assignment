@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link type="text/css" rel="stylesheet" href="CSS/default.css" />
+	<script type="text/javascript" src="Javascript/slideshow.js"></script>
 	<title> XABY Reviews </title>
 
 </head>
@@ -18,13 +19,13 @@
 	</div>
 		
 	<div id="nav">
-	<label for="show-menu" class="show-menu">Show Menu</label>
+	<label for="show-menu" class="show-menu">Show Menu</label> <!-- Show menu button which is displayed on mobile screens -->
 	<input type="checkbox" id="show-menu" role="button">
-	<ul id="menu">
+	<ul id="menu"> <!-- Start of the navigation menu list -->
 		<li><a href="index.html">Home</a></li>
 		<li>
 			<a>Reviews ￬</a>
-			<ul class="hidden">
+			<ul class="hidden"> <!-- Start of a new list for the dropdown menu under "reviews" -->
 				<li><a href="Webpages/pc-reviews">PC Reviews</a></li>
 				<li><a href="Webpages/ps4-reviews">PS4 Reviews</a></li>
 				<li><a href="Webpages/xbox-reviews">Xbox Reviews</a></li>
@@ -34,7 +35,34 @@
 		<li><a href="Webpages/about-us.html">About Us</a></li>
 	</ul>
 	</div>
+	
+	<div id="slider"> <!-- Image slider/slideshow of review images (refer to readme for design wireframe) -->
+		
+		<div class="slides fading">
+			<img src="Images/Slider/LeagueBanner.jpg">
+		</div>
+		
+		<div class="slides fading">
+		<img src="Images/Slider/RocketBanner.jpg">
+		</div>
+		
+		<div class="slides fading">
+		<img src="Images/Slider/ForzaBanner.jpg">
+		</div>
+		
+		<div class="slides fading">
+		<img src="Images/Slider/DivisionBanner.jpg">
+		</div>
+		
+		<div class="slides fading">
+		<img src="Images/Slider/FarcryBanner.jpg">
+		</div>
+		
+	</div>
 
+	
+	
+	
 </div>
 </body>
 
