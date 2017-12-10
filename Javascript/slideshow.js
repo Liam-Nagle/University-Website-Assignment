@@ -12,4 +12,5 @@ function slider() {
 	slideIndex++
 	if (slideIndex > x.length) {slideIndex = 1} //checks if the slideindex is larger than the max amount of images and if so resets back to the first (1)
 	x[slideIndex-1].style.display = "block"; //Displays the image when the image slideIndex is reached
-	setTimeout(slider, 4000); //Changes the slide every 4 seconds
+	setTimeout(slider, 10000); //Changes the slide every 4 seconds
+}

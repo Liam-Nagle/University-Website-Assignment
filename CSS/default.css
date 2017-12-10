@@ -98,23 +98,23 @@ input[type=checkbox]:checked ~ #menu{
 	display: none;
 }
 
-.fading {
-	-webkit-animation-name: fade;
-	-webkit-animation-duration: 1.5s;
-	animation-name: fade;
-	animation-duration: 1.5s;
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fadeinout;
+  -webkit-animation-duration: 10s;
+  animation-name: fadeinout;
+  animation-duration: 10s;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+@-webkit-keyframes fadeinout {
+  0%,100% {opacity: 0}
+  50% {opacity: 1}
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+@keyframes fadeinout {
+  0%,100% {opacity: 0}
+  50% {opacity: 1}
 }
-
 
 /* Medium Size Style */
 @media screen and (min-width: 580px) {
