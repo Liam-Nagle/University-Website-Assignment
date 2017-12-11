@@ -88,14 +88,22 @@ input[type=checkbox]:checked ~ #menu{
 	position: relative;
 }
 
+/* Slider Container Styling*/
 .slider {
-	max-width: 1000px;
+	width: 1000px;
 	position: relative;
 	margin: auto;
 }
 
+/* Stops all the images being shown. Images being displayed is then controled within the Javascrip */
 .slides {
 	display: none;
+}
+
+/* Sets the max width for the Images. Meaning it resizes itself on smaller devices. Up to its max width of 1000px */
+img.slideimg {
+	width: 100%;
+	height: 30%;
 }
 
 /* Fading animation */
