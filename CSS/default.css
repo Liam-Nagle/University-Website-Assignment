@@ -124,6 +124,24 @@ img.slideimg {
   50% {opacity: 1}
 }
 
+/* Sets width of Review image links to 100% so it fills the screen */
+.reviewimg {
+	width: 100%;
+}
+
+.reviews {
+	border: 0.2px solid #bfbfbf
+}
+
+/* Styling for the text undernear the Review images */
+.desc {
+	font-family: monaco;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+	color: #1848aa;
+}
+
 /* Medium Size Style */
 @media screen and (min-width: 580px) {
 /*Centers Menu Position*/
@@ -161,6 +179,11 @@ li:hover ul a:hover {
 	max-width: 1024px;
 }
 
+/* Styles the images to be horizontal when on larger displays */
+.reviews {
+	display: inline-block;
+	width: 24.5%;
+}
 
 }
 
