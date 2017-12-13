@@ -56,6 +56,58 @@ li ul li a {
 ul li a:hover + .hidden, .hidden:hover {
     display: block;
 }
+
+/* Style for the h1, h3 and p element inside the Contact us page */
+h1 {
+	text-align: center;
+	font-family: fantasy;
+}
+
+h3 {
+	font-family: monaco;
+	font-weight: bold;
+}
+
+p {
+	font-family: monaco
+}
+
+/* Styling for the Contact us Form where type=text and select ( All the input boxes and the select box for country) */
+
+input[type=text], select {
+    width: 100%;
+    padding: 0.75em 1.25em;
+    margin: 0.5em 0;
+    display: inline-block;
+    border: 0.0625em solid #ccc;
+    border-radius: 0.25em;
+    box-sizing: border-box;
+}
+
+/* Styling for the submit buttom */
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.875em 1.25em;
+    margin: 0.5em 0;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+/* Sets the text area to be full width */
+#form textarea {
+	width: 100%;
+}
+
+/* Some form styling to limit its size within the main container */
+#form {
+    padding: 2.5em;
+	font-family: monaco;
+}
+
 /*Styles for show menu button*/
 .show-menu {
     font-family: fantasy;
@@ -139,7 +191,7 @@ img.slideimg {
 	font-weight: bold;
 	text-align: center;
 	padding: 15px;
-	color: #1848aa;
+	color: #000;
 }
 
 /* Medium Size Style */
@@ -194,6 +246,11 @@ li:hover ul a:hover {
 img#noreview:hover {
 	-webkit-filter: blur(4px);
 	filter: blue(4px);
+}
+
+/* Hover style for Submit button on Contact Us form */
+input[type=submit]:hover {
+    background-color: #45a049;
 }
 
 }
