@@ -186,6 +186,16 @@ li:hover ul a:hover {
 	margin-top: 10px;
 }
 
+.reviews:hover {
+	border: 0.2px solid #000
+}
+
+/* Adds a bluring hover state to games with no review. To indicate that there is no review. */
+img#noreview:hover {
+	-webkit-filter: blur(4px);
+	filter: blue(4px);
+}
+
 }
 
 
