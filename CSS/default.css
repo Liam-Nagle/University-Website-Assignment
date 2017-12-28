@@ -36,6 +36,7 @@ li:hover ul a {
     color: #1848aa;
     height: 40px;
     line-height: 40px;
+	min-width: 120px;
 }
 /*Hide dropdown links until they are needed*/
 li ul {
@@ -240,6 +241,12 @@ li:hover ul a:hover {
 /* Show menu button hidden on larger displays */
 .show-menu {
 	display: none;
+}
+
+/*Makes the dropdown hover ontop of content on larger displays*/
+ul li a:hover + .hidden, .hidden:hover {
+	position: absolute; /* makes it hover over top of the content*/
+	z-index: 1; /* Forces the dropdown menu to display overtop of any content on the page */
 }
 
 /*Container max size for larger screen*/
